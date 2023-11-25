@@ -1,5 +1,5 @@
 module "lil_eks_module" {
-  source            = "./modules"
+  source            = "github.com/lily4499/terraf_eks_module"
   aws_region_lil    = "us-east-1"
   vpc_cidr_lil      = "10.0.0.0/16"
   dns_hostnames_lil  = true
