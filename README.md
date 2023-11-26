@@ -1,5 +1,5 @@
 # FIND BELOW MY CUSTOM TERRAFORM MODULE TO PROVISION AWS EKS CLUSTER.
-# All you need to do, is to provide your region and availibily zones.
+# All you need to do, is to provide your region and avaibility zones.
 
                    *********************************
 
