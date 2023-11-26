@@ -4,10 +4,10 @@
                    *********************************
 
 module "lil_eks_module" {
-  source  = "lily4499/EKS-Lil/AWS"
-  version = "1.0.1"
-  aws_region_lil    = "Could you, Please, enter your provider region here?"
-  vpc_cidr_lil      = "10.0.0.0/16"
+  source             = "lily4499/EKS-Lil/AWS"
+  version            = "1.0.4"
+  aws_region_lil     = "Could you, Please, enter your provider region here?"
+  vpc_cidr_lil       = "10.0.0.0/16"
   dns_hostnames_lil  = true
   dns_support_lil    = true
   pub_one_cidr_lil   = "10.0.1.0/24"
@@ -21,4 +21,5 @@ module "lil_eks_module" {
   ami_type_lil       = "AL2_x86_64"
   instance_types_lil = ["t3.small", "t3.medium", "t3.large"]
   capacity_type_lil  = "ON_DEMAND"
+
 }
