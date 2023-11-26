@@ -1,3 +1,8 @@
+# FIND BELOW MY CUSTOM TERRAFORM MODULE TO PROVISION AWS EKS CLUSTER.
+# All you need to do, is to provide your region and availibily zones.
+
+                   *********************************
+
 module "lil_eks_module" {
   source            = "github.com/lily4499/terraf_eks_module"
   aws_region_lil    = "Could you, Please, enter your provider region here?"
