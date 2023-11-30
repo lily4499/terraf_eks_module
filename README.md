@@ -5,6 +5,7 @@
 
 module "lil_eks_module" {
   source  = "lily4499/EKS-Lil/AWS"
+  
   version = "1.0.1"
   aws_region_lil    = "Could you, Please, enter your provider region here?"
   vpc_cidr_lil      = "10.0.0.0/16"
